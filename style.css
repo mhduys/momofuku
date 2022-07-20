@@ -1,0 +1,502 @@
+body{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav{
+    width: 100%;
+    height: 74px;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    
+    
+}
+.navList ul{
+    display: flex;
+    margin-top: 30px;
+   
+
+}
+.navList ul li{
+    padding-left: 20px;
+    list-style-type: none;
+}
+.navIMG img{
+    width: 30px;
+    margin-top: 30px;
+}
+.navMainDiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+/*--------------section1-----------*/
+.firstSec img{
+    width: 100%;
+    height: 100vh;
+
+}
+.firstSecText{
+    position: absolute;
+    top: 150px;
+    padding-left: 50px;
+}
+.firstSecText h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+.firstSecText h6{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -40px;
+}
+.firstSec{
+    display: flex;
+    
+}
+.firstSec button{
+    border-radius: 7px;
+    border: none;
+    height: 50px;
+    font-weight: 900;
+}
+.firstSec button:hover{
+    color: white;
+    background-color: black;
+}
+.fistSecRadio{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    padding-left: 50%;
+    
+}
+/*----------section2-------------*/
+.section2{
+    width: 100%;
+    height: 100vh;
+    background-color: #faecc8;
+    display: flex;
+}
+.smallImg{
+    width: 153px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+    
+    
+}
+.smallImg .img1, .img2, .img3{
+    width: 120px;
+    height: 120px;
+    border-radius: 6px;
+    overflow: hidden;
+    
+
+
+}
+
+
+.imgText{
+    width: 120px;
+    height: 160px;
+   
+    overflow: hidden;
+    border-radius: 6px;
+}
+.underText{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.underText h3{
+    margin-top: 2px;
+}
+.smallImg img{
+    width: 141px;
+    
+}
+.largeLeft{
+    width: 450px;
+    height: 550px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.largeLeft img{
+    width: 550px;
+}
+.left{
+    display: flex;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.rightText h1{
+    font-size: 50px;
+    font-weight: 900;
+
+}
+.rightText p{
+    font-size: 20px;
+    margin-top: -30px;
+}
+.rightText button{
+    width: 600px;
+    height: 60px;
+    background-color: rgb(255, 153, 0);
+    border-radius: 8px;
+}
+/*-------------section3--------------*/
+.section3{
+    width: 100%;
+    height: 100vh;
+    background-color: #5f9876;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section3main{
+    width: 90%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+.section3main .one, .two, .three{
+    width: 350px;
+    background-color:white;
+    padding: 10px;
+    
+    
+}
+.section3main h4{
+    font-size: 25px;
+    font-weight: 900;
+}
+.section3main h6{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100;
+    line-height: 25px;
+    margin-top: 1px;
+}
+.section3 .heading{
+    position: absolute;
+    margin-top: -500px;
+    margin-left: -880px;
+    font-size: 25px;
+}
+/*------------------section4----------*/
+.section4{
+    display: flex;
+    
+}
+.section4Left{
+    width: 50%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.section4Text{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    line-height: 10px;
+    
+    
+}
+.section4Text h1{
+    font-size: 60px;
+
+}
+.stk1{
+    width: 505px;
+    height: 100px;
+    background-color: #5f9876;
+    overflow: hidden;
+}
+.stk1 img{
+    height: 10px;
+}
+.section4Text h6{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.section4foot a{
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+}
+
+.section4ColmOne{
+    width: 200px;
+    height: 649px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: px;
+    
+    
+    
+    
+}
+.section4ColmOne .content p,.span1{
+    color: rgb(97, 91, 91);
+    font-size: 15px;
+    line-height: 25px;
+}
+.content h3{
+    font-size: 24px;
+}
+.section4ColmOne .img{
+    width: 200px;
+    height: 170px;
+    overflow: hidden ;
+}
+.section4ColmOne img{
+    width: 200px;
+    height: 170px;
+}
+.section4Button button{
+    width:200px ;
+    height:50px ;
+    border-radius: 7px;
+    border: none;
+    color: white;
+    background-color: black;
+    font-weight: 900;
+    margin-top: 30px;
+}
+.section4Button button:hover{
+    background-color:  rgb(255, 153, 0);
+    color: black;
+}
+
+
+.section4Right{
+    width: 50%;
+    height: 100vh;
+}
+.rightmain{
+    display: flex;
+    
+    justify-content:space-around;
+    justify-content: space-evenly;
+    
+}
+/*----------five------------*/
+.section5{
+    display: flex;
+}
+
+.fiveleft{
+    width: 50%;
+    height: 70vh;
+    background-color: #5f9876;
+    overflow: hidden;
+}
+.fiveright{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #faecc8;
+    
+}
+.fivecontent{
+    width: 350px;
+    height: 300px;
+    
+}
+.fivecontent h1{
+    font-size: 50px;
+}
+.fivecontent p{
+    font-size: 20px;
+    margin-top: -25px;
+    color: rgb(54, 52, 52);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.fivebutton button{
+    width:200px ;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    background-color:  rgb(255, 153, 0);
+    font-weight: 900;
+}
+.fivebutton{
+    margin-top: 50px;
+}
+/*-------six---------*/
+.section6{
+    display: flex;
+}
+.sixleft{
+    width: 50%;
+    height: 70vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sixcontent h1{
+    font-size: 50px;
+}
+.sixcontent{
+    width: 400px;
+    height: 300px;
+
+}
+.sixcontent p{
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.sixlogo img{
+    width: 100px;
+}
+.sixlogo{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.sixright{
+    width: 50%;
+    height: 70vh;
+    background-color: #5f9876;
+    
+    
+    
+}
+.siximg{
+    overflow: hidden;
+}
+/*----------------seven----------------*/
+.sevencontentbg{
+    width: 100%;
+    height: 200px;
+    background-color:  rgb(255, 153, 0);
+    opacity: .7;
+    
+}
+.section7{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://media.istockphoto.com/photos/collection-of-mixed-fruits-picture-id1145315624?b=1&k=20&m=1145315624&s=170667a&w=0&h=gJagSchGWQ7ktBMoYravzGnONFMUEnLUbJqAK3bfuY0=);
+    background-size: cover;
+    position: relative;
+}
+.sevencontent{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 400px;
+    line-height: 2px;
+}
+.sevencontent h4{
+    font-size: 30px;
+}
+.sevencontent p{
+    margin-top: -2px;
+
+}
+.sevencontent input{
+    width: 450px;
+    height: 42px;
+    border-radius: 6px;
+    border: none;
+   
+}
+/*----------------footer-------------*/
+
+.footermain{
+    width: 100%;
+    height: 60vh;
+    background-color:#faecc8 ;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+   
+    
+}
+.footrmain .ftone, .fttwo, .ftthree{
+    width: 25%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+
+    
+}
+.footermain .fttwo li , .ftthree li{
+   list-style-type: none;
+   line-height: 30px;
+   font-size: 20px;
+}
+.footermain .ftone .img2 img{
+    width: 200px;
+    padding-left: 50px;
+}
+.footermain .ftone .img2{
+    width: 250px;
+}
+.pay img{
+    width: 200px;
+    height: 50px;
+    
+    
+}
+.pay{
+    width: 50%;
+    height: 100px;
+    overflow: hidden;
+    display:flex ;
+    justify-content:end;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+.last{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    position: absolute;
+    bottom: 0;
+    
+}
+.lastTextt{
+    width: 50%;
+    height: 100px;align-items: flex-end;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 30px;
+}
+.footer{
+    position: relative;
+}
